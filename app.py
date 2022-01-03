@@ -1,10 +1,12 @@
-from flask import Flask
+from typing import Pattern
+from flask import Flask, render_template
+from patterns import candlestick_patterns
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return render_template('index.html', candlestick_patterns = candlestick_patterns)
 
 @app.route('/snapshot')
 def snapshot():
