@@ -59,5 +59,6 @@ candlestick_patterns = {
     'CDLTRISTAR':'Tristar Pattern',
     'CDLUNIQUE3RIVER':'Unique 3 River',
     'CDLUPSIDEGAP2CROWS':'Upside Gap Two Crows',
-    'CDLXSIDEGAP3METHODS':'Upside/Downside Gap Three Methods'
+    'CDLXSIDEGAP3METHODS':'Upside/Downside Gap Three Methods',
+    'ALL TICKER' : 'All'
 }
